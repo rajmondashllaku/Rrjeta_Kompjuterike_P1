@@ -1,5 +1,5 @@
 from socket import *
-import datetime
+from datetime import datetime
 import random
 import os
 import string
@@ -53,8 +53,7 @@ def GAME():
 
  # time
 def TIME():
-    time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    return time
+    return str(datetime.now())
 
 # reverse
 def REVERSE(texti):
